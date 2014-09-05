@@ -1,0 +1,3 @@
+C:\Users\amallonee\Documents\Projects\LocalAppenings\LocalAppenings_Droid\bin\Debug\LocalAppenings_Droid.dll
+C:\Users\amallonee\Documents\Projects\LocalAppenings\Components\json.net-4.5.11\lib\android\Newtonsoft.Json.dll
+C:\Users\amallonee\Documents\Projects\LocalAppenings\Components\parse-1.2.16\lib\android\Parse.Android.dll

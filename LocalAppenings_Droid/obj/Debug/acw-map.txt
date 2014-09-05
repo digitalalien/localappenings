@@ -1,0 +1,3 @@
+LocalAppenings_Droid.EventListActivity;localappenings_droid.EventListActivity
+LocalAppenings_Droid.EventListViewAdapter;localappenings_droid.EventListViewAdapter
+LocalAppenings_Droid.App;localappenings_droid.App

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="LocalAppenings_Droid_Tests.LocalAppenings_Droid_Tests">
+  <uses-sdk android:minSdkVersion="19" />
+  <application android:label="LocalAppenings_Droid_Tests" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:label="LocalAppenings_Droid_Tests" android:name="localappenings_droid_tests.MainActivity" />
+    <activity android:icon="@drawable/icon" android:label="LocalAppenings_Droid" android:name="localappenings_droid.EventListActivity" />
+    <activity android:label="NUnitLite runner" android:name="xamarin.android.nunitlite.TestSuiteActivity" />
+    <activity android:label="Test Result" android:name="xamarin.android.nunitlite.TestResultActivity" />
+    <activity android:configChanges="keyboardHidden|orientation" android:label="Options" android:windowSoftInputMode="stateUnspecified|adjustPan" android:name="xamarin.android.nunitlite.OptionsActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="LocalAppenings_Droid_Tests.LocalAppenings_Droid_Tests.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.LocalAppenings_Droid_Tests.LocalAppenings_Droid_Tests" />
+      </intent-filter>
+    </receiver>
+    <activity android:label="LocalAppenings_Droid_Tests" android:name="localappenings_droid_tests.localappenings_droid_tests.TrialSplashScreen" android:theme="@style/Mono.Android.Theme.Splash" android:noHistory="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:icon="@drawable/icon" android:label="LocalAppenings_Droid" android:name="localappenings_droid_tests.localappenings_droid_tests.TrialSplashScreen_" android:theme="@style/Mono.Android.Theme.Splash" android:noHistory="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
