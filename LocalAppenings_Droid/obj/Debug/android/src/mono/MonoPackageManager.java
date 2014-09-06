@@ -67,8 +67,8 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"LocalAppenings_Droid.dll",
-		"Newtonsoft.Json.dll",
 		"Parse.Android.dll",
+		"Newtonsoft.Json.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

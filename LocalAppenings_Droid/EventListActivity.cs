@@ -26,8 +26,8 @@ namespace LocalAppenings_Droid
 
 			_eventListView = FindViewById<ListView> (Resource.Id.eventListView);
 
-			items = new string[] {"Vegetables", "fruit", "FLowers", "Legumes", "test"};
-			ArrayAdapter ListAdapter = new ArrayAdapter<String> (this, Android.Resource.Layout.SimpleListItem1, items);
+			_adapter = new EventListViewAdapter (this);
+			_eventListView.Adapter = _adapter;
 		}
 
 		public override bool OnCreateOptionsMenu (IMenu menu)
